@@ -9,7 +9,7 @@
   - Validaciones de los campos
   - Buqueda de tareas
 
-#Recuerda que
+# Recuerda que
 - para que la aplicacion te funcione perfectamente debes hacer lo siguiente
 - Ejecuta `npm install` para instalar las dependencias
 - Ejecuta `npm run dev` para iniciar el proyecto
