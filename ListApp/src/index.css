@@ -1,0 +1,129 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --button-complete-color: #3a9950;
+  --button-edit-color: #b7bd53;
+  --button-delete-color: #cf5c53;
+  --button-add-color: #52cfee;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.light {
+  background-color: rgb(240, 238, 238);
+  color: rgb(48, 46, 46);
+  transition: 0.5s;
+}
+
+.dark {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  transition: 0.5s;
+}
+
+body.dark button {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+body.light button {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+body.dark .container-task {
+  color: #1a1a1a;
+}
+
+body.dark .pending-container {
+  color: #1a1a1a;
+}
+
+body.dark span {
+  color: #1a1a1a;
+}
+
+body.light .btn-add {
+  background-color: #52cfee;
+  color: #1a1a1a;
+  transition: 0.5s;
+}
+
+body.light .btn-delete {
+  color: #fdfdfd;
+  transition: 0.5s;
+  background-color: var(--button-delete-color);
+}
+
+body.light .btn-complete {
+  color: #fdfdfd;
+  background-color: var(--button-complete-color);
+  transition: 0.5s;
+}
+
+body.light .btn-edit {
+  background-color: var(--button-edit-color);
+  color: #fdfdfd;
+  transition: 0.5s;
+}
+
+body.dark .btn-add {
+  background-color: #52cfee;
+  transition: 0.5s;
+}
+
+body.dark .btn-delete {
+  color: #fdfdfd;
+  transition: 0.5s;
+  background-color: var(--button-delete-color);
+}
+
+body.dark .btn-complete {
+  color: #fdfdfd;
+  background-color: var(--button-complete-color);
+  transition: 0.5s;
+}
+
+body.dark .btn-edit {
+  background-color: var(--button-edit-color);
+  color: #fdfdfd;
+  transition: 0.5s;
+}
