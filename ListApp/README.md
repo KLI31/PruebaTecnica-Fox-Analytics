@@ -8,3 +8,8 @@
   - Notificaciones para saber el estado de la tarea
   - Validaciones de los campos
   - Buqueda de tareas
+
+#Recuerda que
+para que la aplicacion te funcione perfectamente debes hacer lo siguiente
+Ejecuta `npm install` para instalar las dependencias
+4. Ejecuta `npm run dev` para iniciar el proyecto
