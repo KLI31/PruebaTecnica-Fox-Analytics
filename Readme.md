@@ -33,4 +33,4 @@ Para instalar y ejecutar el proyecto mobile, sigue estos pasos:
 ## Contacto
 
 Luis David Rambao Fuentes - lrambao5432@gmail.com
-Link del Proyecto: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Link del Proyecto: [https://github.com/KLI31/PruebaTecnica-Fox-Analytics]
