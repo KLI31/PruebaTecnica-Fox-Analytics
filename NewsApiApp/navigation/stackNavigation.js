@@ -4,6 +4,7 @@ import HomeScreen from "../screens/HomeScreen";
 import OnboardingScreen from "../screens/OnboardingScreen";
 import ReadNews from "../screens/ReadNews";
 import SCREEN_NAMES from "../utils/routes";
+import BottomTabNavigation from "../components/BottomTabNavigation";
 
 const Stack = createNativeStackNavigator();
 
@@ -19,7 +20,10 @@ const StackNavigator = () => {
           name={SCREEN_NAMES.onboarding}
           component={OnboardingScreen}
         />
-        <Stack.Screen name={SCREEN_NAMES.home} component={HomeScreen} />
+        <Stack.Screen
+          name={SCREEN_NAMES.home}
+          component={BottomTabNavigation}
+        />
         <Stack.Screen name={SCREEN_NAMES.readNews} component={ReadNews} />
       </Stack.Navigator>
     </NavigationContainer>
