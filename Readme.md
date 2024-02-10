@@ -27,7 +27,7 @@ Para instalar y ejecutar el proyecto mobile, sigue estos pasos:
 
 1. Clona el repositorio
 2. Navega hasta el directorio del proyecto
-3. Ejecuta `npx install` para instalar las dependencias
+3. Ejecuta `npi install` para instalar las dependencias
 4. Ejecuta `npx expo start` para iniciar el proyecto
 
 ## Contacto
