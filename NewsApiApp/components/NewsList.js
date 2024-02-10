@@ -18,6 +18,7 @@ const NewsList = ({ listNews }) => {
     <View style={{ marginTop: 20 }}>
       <FlatList
         data={listNews}
+        showsVerticalScrollIndicator={false}
         renderItem={({ item }) => (
           <View>
             <View style={styles.decoration} />
