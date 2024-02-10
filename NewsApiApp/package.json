@@ -11,6 +11,7 @@
   "dependencies": {
     "@expo/html-elements": "^0.9.1",
     "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.5.12",
     "@react-navigation/native": "^6.1.10",
     "@react-navigation/native-stack": "^6.9.18",
     "apisauce": "^3.0.1",
